@@ -6,7 +6,7 @@
 
 session_start();
 
-$_SESSION['pid']=3;
+$_SESSION['pid']=5;
 include 'core.php';?>
 
 <!DOCTYPE html>
@@ -138,7 +138,7 @@ include 'core.php';?>
                                         <div class="row">
                                             <!-- Contact Form -->
                                             <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
-                                                <form class="form" method="post" action="" id="myform" style="height:auto;">
+                                                <form class="form" method="post" action="" id="buyform" style="height:auto;">
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
@@ -173,13 +173,13 @@ include 'core.php';?>
 
                                                         <div class="col-md-6" id="dp">
                                                             <div class="form-group">
-                                                               $ Dollars <input type="number" name="dollar" id="us"   value=""  placeholder="Enter how much dollar you want" required="required">
+                                                                Enter how much dollars to buy : <span style='font-size:18px;'>&#36;</span>  <input type="number" name="dollar" id="us"   value=""  placeholder="Enter how much dollar you want" required="required">
                                                                <span id="er" style="color:red;"></span>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6" id="cp">
                                                             <div class="form-group">
-                                                            ¢ Cedis <input type="number" name="cedis" id="gh" value=""  placeholder="Amount in cedis" required="required" readonly>
+                                                            Amount to pay in <span style='font-size:18px;'>Gh&#8373;</span> <input type="number" name="cedis" id="gh" value=""  placeholder="Amount in cedis" required="required" readonly>
                                                             </div>
                                                         </div>
 
@@ -244,6 +244,41 @@ include 'core.php';?>
                                                         </div>
 
 
+                                                        <div class="col-md-12" id="tmount">
+                                                            <div class="form-group">
+                                                                Total Cost of Card: <span style='font-size:20px;'>Gh&#8373;</span>
+                                                             <input type="number" name="cardtotal" id="amount"  placeholder="" readonly>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="col-md-12" id="bita">
+                                                            <div class="form-group">
+                                                               NB: Please enter correct <strong>Bitcoin Address</strong> Below
+                                                             <input type="text" name="bitaddress" id="bitad"  placeholder="enter or paste your bitcoin address here">
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="col-md-12" id="bamount">
+                                                            <div class="form-group">
+                                                                Enter amount : <span style='font-size:20px;'>Gh&#8373;</span>
+                                                             <input type="number" name="bitgh" id="bam"  placeholder="">
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="col-md-12" id="bbt">
+                                                            <div class="form-group">
+                                                                Bitcoin amount you get:  <span style='font-size:20px;'>&#8383;</span>
+                                                             <input type="number" name="bitgh" id="bam"  placeholder="">
+                                                            </div>
+                                                        </div>
+
+
+
 
                                                         <!-- <div class="col-md-12">
                                                             <div class="form-group">
@@ -256,6 +291,9 @@ include 'core.php';?>
                                                             <!-- <div class="mess" style="width:100%;background-color:seagreen;height:40px;margin-top:-20px;text-align:center;">
                                                                 <p style="color:white;margin-top:5px;position:absolute;">Message Delivered Successfully</p>
                                                             </div> -->
+
+
+                                                            <!-- 5.7gh  = 0.0001154BT -->
                                                             
                                                         </div>
                                                         <div class="col-md-12">
@@ -358,11 +396,13 @@ include 'core.php';?>
         <script>
         $(function () {
             $("#er").html("");
+            $("#amount").val(0.00);
+            $("#amount").css("cursor","not-allowed");
 
 
             $("#us").keyup(function () {
 
-              var  result= $(this).val() * 5;
+              var  result= $(this).val() * 5.3;
                if ($(this).val()>= 10) {
 
                 $("#gh").val(result);
@@ -374,7 +414,66 @@ include 'core.php';?>
                   
                }
                 
-            })
+            });
+
+        $("#typec").change(function () {
+
+                if ($("#typec").val() == "") {
+                    var result1 = 0;
+
+                    $("#amount").val(result1);
+                    
+                    
+                }
+                else{
+
+                  
+                }
+        
+
+                if ($("#typec").val() == 1) {
+                    var result1 = 98;
+
+                    $("#amount").val(result1);
+                    
+                    
+                }
+                else{
+
+                  
+                }
+
+
+
+
+                if ($("#typec").val() == 2) {
+                    var result2 = 160;
+
+                    $("#amount").val(result2);
+                   
+                    
+                }
+                else{
+
+                   
+                }
+
+
+                if ($("#typec").val() == 3) {
+                    var result3 = 200;
+
+                    $("#amount").val(result3);
+                    $("#amount").css("cursor","not-allowed");
+                    
+                }
+                else{
+
+                   
+
+                   
+                }
+        })
+
             
         })
         

@@ -4,6 +4,7 @@ document.getElementById
 
     $("#dp").hide();
     $("#cp").hide();
+    $("#gh").css("cursor","not-allowed");
     $("#ep").hide();
     $("#np").hide();
 
@@ -13,6 +14,11 @@ document.getElementById
     $("#st").hide();
     $("#county").hide();
     $("#typec").hide();
+    $("#tmount").hide();
+
+    $("#bita").hide();
+    $("#bamount").hide();
+    $("#bbt").hide();
 
     $("#buyc").change(function () {
         if ($("#buyc").val()=="paypal") {
@@ -34,6 +40,24 @@ document.getElementById
 
 
 
+
+        if ($("#buyc").val()=="bitcoin") {
+
+            $("#bita").show();
+            $("#bamount").show();
+            $("#bbt").show();
+
+            
+        }
+        else{
+
+            $("#bita").hide();
+            $("#bamount").hide();
+            $("#bbt").hide();
+        }
+
+
+
         if ($("#buyc").val()=="creditcard") {
 
             $("#ad1").show();
@@ -42,6 +66,7 @@ document.getElementById
             $("#st").show();
             $("#county").show();
             $("#typec").show();
+            $("#tmount").show();
 
             
         }
@@ -53,6 +78,7 @@ document.getElementById
             $("#st").hide();
             $("#county").hide();
             $("#typec").hide();
+            $("#tmount").hide();
         }
         
 
@@ -61,6 +87,7 @@ document.getElementById
         
     });
 
+    
 
     
 
@@ -150,6 +177,24 @@ document.getElementById
         }
 
         $.ajax(cont);   
+        
+    })
+
+
+    $("#buyform").submit(function (buy) {
+
+        buy.preventDefault();
+        var buyopt = {
+
+            url: 'actions.php?dollar=buying',
+            type: "POST",
+            data : new FormData(this),
+            cache: false,
+            contentType : false,
+            processData : false;
+            
+
+        }
         
     })
     

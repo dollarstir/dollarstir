@@ -18,7 +18,7 @@ function ft(){
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <!-- Copyright -->
                 <div class="copyright">
-                    <p>&copy; Copyright '.date("Y").'    Designed by Dollarsitr.</p>
+                    <p>&copy; Copyright '.date("Y").'    Designed by Dollarsitr (CEO of Dollarsoft Corporation)</p>
                 </div>
                 <!--/ End Copyright -->
             </div>
@@ -72,7 +72,15 @@ function hdbar(){
                                                 
                                            
                                            <!-- <li><a href="index.php#my-timeline"><i class="fa fa-history"></i>Timeline</a></li>-->
-                                            <li><a href="index.php#testimonials"><i class="fa fa-star"></i>Testimonials</a></li>		
+                                           <li><a href="#market"><i class="fa fa-shopping-cart"></i>Market</a>
+											<ul>
+												<li><a href="market.php"><i class="fa fa-angle-double-right"></i>Buy E-currency</a></li>
+                                                <li><a href="sell.php"><i class="fa fa-angle-double-right"></i>Sell E-currency</a></li>
+                                                <li><a href="getpaypal.php"><i class="fa fa-angle-double-right"></i>Get Verified Paypal Account</a></li>
+
+												
+											</ul>
+										</li>		
                                             <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                
                                             </li>		
@@ -126,7 +134,15 @@ function hdbar(){
                                            
                                             <li><a href="index.php#pricing"><i class="fa fa-dollar"></i>Pricing</a> </li>
 
-                                            <li><a href="index.php#testimonials"><i class="fa fa-star"></i>Testimonials</a></li>		
+                                            <li><a href="#market"><i class="fa fa-shopping-cart"></i>Market</a>
+											<ul>
+												<li><a href="market.php"><i class="fa fa-angle-double-right"></i>Buy E-currency</a></li>
+                                                <li><a href="sell.php"><i class="fa fa-angle-double-right"></i>Sell E-currency</a></li>
+                                                <li><a href="getpaypal.php"><i class="fa fa-angle-double-right"></i>Get Verified Paypal Account</a></li>
+
+												
+											</ul>
+										</li>				
                                             <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                
                                             </li>		
@@ -179,7 +195,15 @@ function hdbar(){
                                                         
                                                     </li>
                                                     <li><a href="index.php#pricing"><i class="fa fa-dollar"></i>Pricing</a> </li>
-                                                    <li><a href="index.php#testimonials"><i class="fa fa-star"></i>Testimonials</a></li>		
+                                                    <li><a href="#market"><i class="fa fa-shopping-cart"></i>Market</a>
+                                                    <ul>
+                                                        <li><a href="market.php"><i class="fa fa-angle-double-right"></i>Buy E-currency</a></li>
+                                                        <li><a href="sell.php"><i class="fa fa-angle-double-right"></i>Sell E-currency</a></li>
+                                                        <li><a href="getpaypal.php"><i class="fa fa-angle-double-right"></i>Get Verified Paypal Account</a></li>
+
+                                                        
+                                                    </ul>
+                                                </li>				
                                                     <li class="active"><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                     
                                                     </li>		
@@ -235,8 +259,79 @@ function hdbar(){
                                                 </li>
 
                                                 <li><a href="index.php#pricing"><i class="fa fa-dollar"></i>Pricing</a> </li>
-                                                <li><a href="index.php#testimonials"><i class="fa fa-star"></i>Testimonials</a></li>		
+                                                <li><a href="#market"><i class="fa fa-shopping-cart"></i>Market</a>
+											<ul>
+												<li><a href="market.php"><i class="fa fa-angle-double-right"></i>Buy E-currency</a></li>
+                                                <li><a href="sell.php"><i class="fa fa-angle-double-right"></i>Sell E-currency</a></li>
+                                                <li><a href="getpaypal.php"><i class="fa fa-angle-double-right"></i>Get Verified Paypal Account</a></li>
+
+												
+											</ul>
+										</li>				
                                                 <li class="active"><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
+                                                
+                                                </li>		
+                                                <li><a href="index.php#contact"><i class="fa fa-address-book"></i>Contact</a></li>		
+                                            </ul>
+                                            <ul class="social-icon">
+                                                <li><a href="index.php#header"><i class="fa fa-plus"></i></a></li>
+                                            </ul>
+                                            <ul class="social">
+                                                <li><a href="index.php#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="index.php#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="index.php#"><i class="fa fa-behance"></i></a></li>
+                                                <li><a href="index.php#"><i class="fa fa-dribbble"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                    <!--/ End Main Menu -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                    ';  
+            break;
+
+        case 5:
+                echo '
+                <header id="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12 col-xs-12">
+                                <!-- Logo -->
+                            <a href="index.php"><img src="images/logo.png" style="width=100px;height:70px;position:absolute;margin-left:20px;margin-top:-10px;"/></a>
+                                <div class="logo">
+                                    <a href=""></a>
+                                </div>
+                                <!--/ End Logo -->
+                                <div class="mobile-nav"></div>
+                            </div>
+                            <div class="col-md-10 col-sm-12 col-xs-12">
+                                <div class="nav-area">
+                                    <!-- Main Menu -->
+                                    <nav class="mainmenu">
+                                        <div class="collapse navbar-collapse">
+                                            <ul class="nav navbar-nav menu">
+                                                <li><a href="index.php#personal-area"><i class="fa fa-home"></i>Homepage</a>
+                                                    
+                                                </li>
+                                                <li><a href="index.php#my-service"><i class="fa fa-rocket"></i>My Service</a></li>
+                                                <li><a href="index.php#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+                                                    
+                                                </li>
+
+                                                <li><a href="index.php#pricing"><i class="fa fa-dollar"></i>Pricing</a> </li>
+                                                <li class="active"><a href="#market"><i class="fa fa-shopping-cart"></i>Market</a>
+                                            <ul>
+                                                <li><a href="market.php"><i class="fa fa-angle-double-right"></i>Buy E-currency</a></li>
+                                                <li><a href="sell.php"><i class="fa fa-angle-double-right"></i>Sell E-currency</a></li>
+                                                <li><a href="getpaypal.php"><i class="fa fa-angle-double-right"></i>Get Verified Paypal Account</a></li>
+
+                                                
+                                            </ul>
+                                        </li>				
+                                                <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                 
                                                 </li>		
                                                 <li><a href="index.php#contact"><i class="fa fa-address-book"></i>Contact</a></li>		
