@@ -23,6 +23,21 @@ include 'core.php';?>
 		
 		<!-- Title Tag -->
         <title>Dollar Stir &minus; Welcome</title>
+        
+        
+        <!--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>-->
+        <!--<script>-->
+        <!--  var OneSignal = window.OneSignal || [];-->
+        <!--  OneSignal.push(function() {-->
+        <!--    OneSignal.init({-->
+        <!--      appId: "588c5054-314b-45f7-af32-1ba027b1e4ba",-->
+        <!--    });-->
+        <!--  });-->
+        <!--</script>-->
+        
+       
+        
+        
 		
 		
 		
@@ -194,7 +209,7 @@ include 'core.php';?>
 											<!-- End About Image -->
 											<div class="col-md-8 col-sm-12 col-xs-12">
 												<div class="content">
-													<p>Welcome to my website. I am a professional developer who always meet clients expertations, work on time .My name is Frederick Ennin, CEO  of Dollarsoft Corporation and Co- Founder of award  Wining Tech Company Purple Software LLP.Am Known in  the Tech Industry as <strong><em><u>Dollar Stir.</u></em></strong> I have 7 years Work  experience as a programmer. I code in <strong>(python , C#, C++ and Php)</strong>. I have worked with Great Companies Both Locally and Internationally. Hire me Now Let do Business</p>
+													<p>Welcome to my website. I am a professional developer who always work on time and meet clients expectations .My name is Frederick Ennin, CEO  of Dollarsoft Corporation and Co- Founder of award  Wining Tech Company Purple Software LLP.Am Known in  the Tech Industry as <strong><em><u>Dollar Stir.</u></em></strong> I have 7 years Work  experience as a programmer. I code in <strong>(python , C#, C++ and Php)</strong>. I have worked with Great Companies Both Locally and Internationally. Hire me Now Let do Business</p>
 												</div>
 												<div class="social">
 													<ul>
@@ -315,7 +330,7 @@ include 'core.php';?>
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="section-title">
 							<h1><span>My</span> Service<i class="fa fa-rocket"></i></h1>
-							<p>I develope Website of any kind , I build android and IOS apps,Desktop Apps , Accounting Softwares for Pharmacy and super markets. I build School management Softwares<p>
+							<p>I develop Websites of any kind , build android and IOS apps,Desktop Apps , Accounting Softwares for Pharmacy and super markets and School management Softwares<p>
 						</div>
 					</div>
 				</div>
@@ -472,7 +487,7 @@ include 'core.php';?>
 				<div class="row">
 					<!-- Button -->
 					<div class="button">
-						<a href="portfolio-full-width.html" class="btn">More Portfolio<i class="fa fa-angle-double-right"></i></a>
+						<a href="#" class="btn">More Portfolio<i class="fa fa-angle-double-right"></i></a>
 					</div>
 					<!-- End Button -->
 				</div>
@@ -548,7 +563,7 @@ include 'core.php';?>
 												<p>Sep<span>16</span></p>
 											</div>
 											<h2>High School Degree</h2>
-											<p>I  attended Asanteman Senior High school At Kumasi-Suame. And I was the Ict Vice President from 2013  to 2016<p>
+											<p>Attended Asanteman Senior High school At Kumasi-Suame. And I was the Ict Vice President from 2013  to 2016<p>
 										</div>
 									</div>
 								</div>
@@ -560,8 +575,8 @@ include 'core.php';?>
 											<div class="date">
 												<p>Mar<span>12</span></p>
 											</div>
-											<h2>Start Web Design</h2>
-											<p>I started Coding in the year 2014<p>
+											<h2>Web Design</h2>
+											<p> Started Coding in the year 2014<p>
 										</div>
 									</div>
 								</div>
@@ -574,7 +589,7 @@ include 'core.php';?>
 												<p>Sep<span>24</span></p>
 											</div>
 											<h2>Join University</h2>
-											<p>I started university in the year 2018 at the University of Cape Coast- Ghana</p>
+											<p>Started university in the year 2018 at the University of Cape Coast- Ghana</p>
 										</div>
 									</div>
 								</div>
@@ -586,8 +601,8 @@ include 'core.php';?>
 											<div class="date">
 												<p>Feb<span>16</span></p>
 											</div>
-											<h2>Start Desktop App Development</h2>
-											<p>I started building professional desktop apps in the year 2017 </p>
+											<h2>Desktop App Development</h2>
+											<p>Started building professional desktop apps in the year 2017 </p>
 										</div>
 									</div>
 								</div>
@@ -646,7 +661,7 @@ include 'core.php';?>
 							</ul>
 							<!-- Table Bottom -->
 							<div class="table-bottom">
-								<a class="btn shine" href="">Buy Now<i class="fa fa-angle-right"></i></a>
+								<a class="btn shine" href="https://dashboard.flutterwave.com/pay/ubyetp332yos">Buy Now<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -823,15 +838,38 @@ include 'core.php';?>
 									<h6>Daniel Ewusi<span>Author</span></h6>
 								</div>			
 							</div>
+							
+							
+							
+							<div class="single-testimonial">
+								<div class="testimonial-content">
+									<i class="fa fa-quote-left"></i>
+									<p>I’ve known Dollar stir since 2018.I’m under no pressure to make it known that ,he renders the best services.</p>
+								</div>
+								<div class="testimonial-info">
+									
+									<img src="images/mark.jpg" class="img-circle" alt="">
+									<ul class="rating">
+										<li><i class="fa fa-star"></i></li>
+										<li><i class="fa fa-star"></i></li>
+										<li><i class="fa fa-star"></i></li>
+										<li><i class="fa fa-star"></i></li>
+										<li><i class="fa fa-star"></i></li>
+									</ul>
+									<h6>Mark Tetteh<span>Student</span></h6>
+								</div>			
+							</div>
+							
+							
 							<!--/ End Single Testimonial -->
 							<!-- Single Testimonial -->
 							<div class="single-testimonial">
 								<div class="testimonial-content">
 									<i class="fa fa-quote-left"></i>
-									<p>Dollarstir Build my website for me at affordable cost and within the expected time</p>
+									<p>Dollarstir Built my website for me at affordable cost and within the expected time</p>
 								</div>
 								<div class="testimonial-info">
-									<img src="images/me1.jpg" class="img-circle" alt="">
+									<img src="images/benard.jpg" class="img-circle" alt="">
 									<ul class="rating">
 										<li><i class="fa fa-star"></i></li>
 										<li><i class="fa fa-star"></i></li>
@@ -840,7 +878,7 @@ include 'core.php';?>
 										<li><i class="fa fa-star"></i></li>
 									</ul>
 									
-									<h6>Frederick Ennin<span>Web Developer</span></h6>
+									<h6>Bernard Arhin<span>UNITECH</span></h6>
 								</div>			
 							</div>
 							<!--/ End Single Testimonial -->
@@ -1020,17 +1058,52 @@ include 'core.php';?>
 			<div class="container">
 				<div class="row">
 					<!-- Single Widget -->
+					<!--<div class="col-md-12 col-sm-12 col-xs-12">-->
+					<!--	<div class="newslatter">-->
+					<!--		<h2><span>Signup</span>Newslatter</h2>-->
+					<!--		<p>Join my mailing List to get updates </p>-->
+					<!--	</div>-->
+					<!--	<form class="news-form">-->
+					<!--		<input type="email" placeholder="type your email">-->
+					<!--		<button type="submit" class="button primary"><i class="fa fa-paper-plane"></i></button>-->
+					<!--	</form>	-->
+					<!--</div>-->
+					<!--/ End Single Widget -->
+					
+					
+					
+					<!-- Single Widget -->
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="newslatter">
-							<h2><span>Signup</span>Newslatter</h2>
-							<p>Join my mailing List to get updates </p>
-						</div>
-						<form class="news-form">
-							<input type="email" placeholder="type your email">
-							<button type="submit" class="button primary"><i class="fa fa-paper-plane"></i></button>
-						</form>	
+						<div>
+                            <a href="https://www.freelancer.com/affiliates/email/42621938/"><img src="https://cdn3.f-cdn.com/ppic/140846129/logo/42621938/profile_logo_42621938.jpg" style="float: left; margin-right: 20px; margin-bottom:10px; width:100px; max-height: 100px; border-radius: 50%;"></a>
+                            <div style="min-height:40px;">
+                                <a style="text-decoration: underline; font-weight: bold;" href="https://www.freelancer.com/affiliates/email/42621938/">Frederick Ennin</a>
+                                <p style="margin: 0;margin-bottom: 6px; white-space: nowrap;overflow: hidden">Porgrammer</p>
+                                
+                                    <p style="margin: 0;">
+                                        
+                                            <strong>P:</strong> 556676471 
+                                         | 
+                                        
+                                            <strong>M:</strong> +233556676471
+                                    </p>
+                                
+                                <p style="margin: 0;"><strong>E:</strong> kpin463@gmail.com</p>
+                                
+                                    <strong style="float:left; margin: 2px 4px 0 0">A:</strong>
+                                    <p style="word-wrap:break-word;max-height:42px;overflow:visible;margin:2px 0;max-width:415px;float:left;line-height:17px"> Dome CFC Accra Ghana, Accra, 00233, GH
+                                    </p>
+                                
+                            </div>
+                            <img src="https://www.freelancer.com/static/css/images/landingpage/hireme-widget-builder/fl-bird-icon.png" style="clear:left;float:left;margin: 10px 0;">
+                            <a href="https://www.freelancer.com/affiliates/email/42621938/" style="display: block;text-decoration: underline;margin: 10px 0 10px 10px;vertical-align: middle;height: 21px;float: left">Hire me on Freelancer.com</a>
+                            <img src="//t.flnwdgt.com/1px.gif?username=kpin463&amp;en=externalHireme&amp;method=img&amp;label=hiremeEmailImpression&amp;ip=154.160.20.24&amp;type=emailSignature" alt="" style="float:left;">
+                        </div>
+
 					</div>
 					<!--/ End Single Widget -->
+					
+					
 				</div>
 			</div>
 		</section>
@@ -1100,5 +1173,20 @@ include 'core.php';?>
 
 		</script>
 		<script src="ajax.js"></script>
+		
+		
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e1cd1c027773e0d832d5b4d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     </body>
 </html>

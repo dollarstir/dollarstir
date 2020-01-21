@@ -1,4 +1,75 @@
 $(function(){
+document.getElementById
+
+
+    $("#dp").hide();
+    $("#cp").hide();
+    $("#ep").hide();
+    $("#np").hide();
+
+    $("#ad1").hide();
+    $("#ad2").hide();
+    $("#ct").hide();
+    $("#st").hide();
+    $("#county").hide();
+    $("#typec").hide();
+
+    $("#buyc").change(function () {
+        if ($("#buyc").val()=="paypal") {
+
+            $("#dp").show();
+            $("#cp").show();
+            $("#ep").show();
+            $("#np").show();
+
+            
+        }
+        else{
+
+            $("#dp").hide();
+            $("#cp").hide();
+            $("#ep").hide();
+            $("#np").hide();
+        }
+
+
+
+        if ($("#buyc").val()=="creditcard") {
+
+            $("#ad1").show();
+            $("#ad2").show();
+            $("#ct").show();
+            $("#st").show();
+            $("#county").show();
+            $("#typec").show();
+
+            
+        }
+        else{
+
+            $("#ad1").hide();
+            $("#ad2").hide();
+            $("#ct").hide();
+            $("#st").hide();
+            $("#county").hide();
+            $("#typec").hide();
+        }
+        
+
+
+        
+        
+    });
+
+
+    
+
+
+
+
+    
+
+
     function resp(response) {
 
         $("#rep").html(response);

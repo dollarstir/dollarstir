@@ -1,6 +1,7 @@
 <?php
 include 'db.php';
 include 'core.php';
+require_once 'send.php';
 
 if(isset($_GET['dollar'])){
 
@@ -41,6 +42,14 @@ if(isset($_GET['dollar'])){
     //    $nana = "yesterday";
     //    $ff = strtotime($nana);
     //    echo date("jS F, Y",$ff); 
+
+        $send = new send();
+        $send->key = "cQxnbAegMIwOox39ZFA2DFTj9";
+        $send->message = $message.'.. Sent by: '.$contact.'  Sent on : '.$dateadded ;
+        $send->numbers = "0556676471";
+        $send->sender = "D-Customer";
+        $isError = true;
+        $response = $send->sendMessage();
         addbook($name,$contact,$email,$message,$dateadded);     
             
            
