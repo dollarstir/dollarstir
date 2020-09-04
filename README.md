@@ -2,7 +2,7 @@
 
 Hey there !! 👋🏻,
 
-I am a Pasionate Software Engineer  I am interested in, writing  and developing (open source) software solutions for and with JavaScript, PHP, ReactJs,React native,NodeJS and python.
+Welcome to my website. I am a professional developer who always work on time and meet clients expectations .My name is Frederick Ennin, CEO of Dollarsoft Corporation and Co- Founder of award Wining Tech Company Purple Software LLP.Am Known in the Tech Industry as Dollar Stir. I have 7 years Work experience as a programmer. I code in (python ,FLutter,React nativePhp, C#, C++ and Vb.net). I have worked with Great Companies Both Locally and Internationally. Hire me Now Let do Business
 
 
 
