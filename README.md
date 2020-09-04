@@ -7,8 +7,8 @@ I am a Pasionate Software Engineer  I am interested in, writing  and developing 
 
 
 
-## 📕 CEO of Hostylegh [https://www.instagram.com/hostylegh/] 
-## Hostylegh is an interactive platform (Mobile App) designed to help students make better decision on choosing a hostel across all tertiary institutions in Ghana
+## 📕 CEO of Dollarsoft Enterprise [https://www.dollarstir.com/] 
+## Dollarsoft is an It firm that Build interactive softwares and also client specifications
 ## with the help of Data Science and AI.
 
 
