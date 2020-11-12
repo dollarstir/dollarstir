@@ -35,8 +35,5 @@ Welcome to my website. I am a professional developer who always work on time and
 </a>
 
 
-[2]: https://www.linkedin.com/in/aframson
-[3]: https://twitter.com/Richard96199400
-[4]: https://www.instagram.com/richobiri
 
 
