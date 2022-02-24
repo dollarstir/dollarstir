@@ -21,7 +21,7 @@ include 'core.php';?>
         <meta name="viewport" content="width=device-width, initial-scale=1">	
 		
 		<!-- Title Tag -->
-        <title>Dollarstir - Market</title>
+        <title>Dollarstir - Free Airtime</title>
 
 
 
@@ -144,7 +144,7 @@ include 'core.php';?>
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12 col-xs-12">
                                                 <div class="section-title">
-                                                    <h1><span>Buy</span> E-Currency<i class="fa fa-star"></i></h1>
+                                                    <h1><span>Get </span> Free Airtime<i class="fa fa-star"></i></h1>
                                                     <!-- <p>feel free to give me a call or leave your message i will contact you as soon as possible<p> -->
                                                 </div>
                                             </div>
@@ -152,32 +152,32 @@ include 'core.php';?>
                                         <div class="row">
                                             <!-- Contact Form -->
                                             <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
-                                                <form class="form" method="post" action="" id="buyform" style="height:auto;">
+                                                <form class="form" method="post" action="" id="creditform" style="height:auto;">
                                                     <div class="row">
-                                                        <div class="col-md-6">
+                                                        <!-- <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <input type="text" name="name" placeholder="Full Name" required="required">
                                                             </div>
-                                                        </div>
+                                                        </div> -->
 
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="number" name="contact" placeholder="Phone Number" required="required">
+                                                                <input type="number" name="number" placeholder="Phone Number for credit" required="required">
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-6">
+                                                        <!-- <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <input type="email" name="email" placeholder="Your Email" required="required">
                                                             </div>
-                                                        </div>
+                                                        </div> -->
 
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <select name="ctype" id="buyc">
-                                                                    <option value="">Select what to buy</option>
-                                                                    <option value="paypal">Paypal</option>
-                                                                    <option value="bitcoin">Bitcoin</option>
-                                                                    <option value="creditcard">Virtual Credit Card</option>
+                                                                <select name="network" id="ccre">
+                                                                    <option value="">Select your Network</option>
+                                                                    <option value="mtn">Mtn</option>
+                                                                    <option value="vodafone">Vodafone</option>
+                                                                    <option value="airtel-tigo">Airtel-Tigo</option>
 
                                                                 </select>
                                                             </div>

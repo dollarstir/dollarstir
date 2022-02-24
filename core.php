@@ -25,10 +25,10 @@ function ft(){
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <!-- Social -->
                 <ul class="social">
-                    <li><a href="index.php#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="active"><a href="index.php#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="index.php#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="index.php#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="http://www.facebook.com/dolarstir"><i class="fa fa-facebook" target="blank"></i></a></li>
+                    <li class="active"><a href="http://www.twitter.com/tunegh1998" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="index.php#" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="http://www.youtube.com/DollarsoftCorporation" target="blank"><i class="fa fa-youtube"></i></a></li>
                 </ul>
                 <!--/ End Social -->
             </div>
@@ -80,7 +80,11 @@ function hdbar(){
 
 												
 											</ul>
-										</li>		
+                                        </li>	
+                                        
+                                        <li><a href="airtime.php"><i class="fa fa-pencil"></i> Free Airtime</a>
+                                               
+                                            </li>	
                                             <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                
                                             </li>		
@@ -142,7 +146,11 @@ function hdbar(){
 
 												
 											</ul>
-										</li>				
+                                        </li>	
+                                        
+                                        <li><a href="airtime.php"><i class="fa fa-pencil"></i> Free Airtime</a>
+                                               
+                                        </li>
                                             <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                
                                             </li>		
@@ -203,7 +211,12 @@ function hdbar(){
 
                                                         
                                                     </ul>
-                                                </li>				
+                                                </li>	
+                                                
+                                                
+                                                <li><a href="airtime.php"><i class="fa fa-pencil"></i> Free Airtime</a>
+                                               
+                                                </li>
                                                     <li class="active"><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                     
                                                     </li>		
@@ -267,7 +280,12 @@ function hdbar(){
 
 												
 											</ul>
-										</li>				
+                                        </li>	
+                                        
+                                        
+                                        <li><a href="airtime.php"><i class="fa fa-pencil"></i> Free Airtime</a>
+                                               
+                                        </li>
                                                 <li class="active"><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                 
                                                 </li>		
@@ -330,7 +348,12 @@ function hdbar(){
 
                                                 
                                             </ul>
-                                        </li>				
+                                        </li>	
+                                        
+                                        
+                                        <li><a href="airtime.php"><i class="fa fa-pencil"></i> Free Airtime</a>
+                                               
+                                        </li>
                                                 <li><a href="products.php"><i class="fa fa-pencil"></i>Products</a>
                                                 
                                                 </li>		
@@ -671,6 +694,55 @@ function addbook($name,$contact,$email,$message,$dateadded)
         <p style="color:white;margin-top:5px;position:absolute;">Message Delivered Successfully</p>
          </div>';
     }
+}
+
+
+function sendpaypal($name,$contact,$email,$prodtype,$dollar,$cedis,$paymail,$payname,$dateadded)
+{
+    include 'db.php';
+    $inspp= mysqli_query($conn,"INSERT INTO buy (name,contact,email,prodtype,dp,cp,paymail,payname,dateadded) VALUES ('$name','$contact','$email','$prodtype','$dollar','$cedis','$paymail','$payname','$dateadded')");
+
+    if ($inspp) {
+
+
+
+        echo '<div class="mess" style="width:100%;background-color:seagreen;height:40px;margin-top:-20px;text-align:center;position:absolute;border-radius:10px;margin-left:-15px;">
+        <strong><p style="color:white;margin-top:10px;text-align:center;">thank you  '.$name.', please contact  <a style="color:white;text-decoration:underline;" href="tel:0556676471">0556676471 to make payment</a> ......</p></strong>
+         </div>
+            
+         ';
+        # code...
+    }
+
+    else {
+
+        echo '<div class="mess" style="width:100%;background-color:red;height:40px;margin-top:-20px;text-align:center;">
+        <p style="color:white;margin-top:5px;position:absolute;">Failed to place order Please try again or call 0556676471</p>
+        </div>'; 
+        
+    }
+}
+
+
+function sendbit($name,$contact,$email,$prodtype,$bitaddress,$bitgh,$btc,$dateadded)
+{
+    include 'db.php';
+    $insbit = mysqli_query($conn,"INSERT INTO buy (name,contact,email,prodtype,bitaddress,bitgh,btc,dateadded) VALUES ('$name','$contact','$email','$prodtype','$bitaddress','$bitgh','$btc','$dateadded') ");
+
+    if ($insbit) {
+        echo '<div class="mess" style="width:100%;background-color:seagreen;height:40px;margin-top:-20px;text-align:center;position:absolute;border-radius:10px;margin-left:-15px;">
+        <strong><p style="color:white;margin-top:10px;text-align:center;">thank you  '.$name.', please contact  <a style="color:white;text-decoration:underline;" href="tel:0556676471">0556676471 to make payment</a> ......</p></strong>
+         </div>
+            
+         ';
+    }
+    else {
+        
+        echo '<div class="mess" style="width:100%;background-color:red;height:40px;margin-top:-20px;text-align:center;">
+        <p style="color:white;margin-top:5px;position:absolute;">Failed to place order Please try again or call 0556676471</p>
+        </div>'; 
+    }
+
 }
 
 

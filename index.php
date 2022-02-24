@@ -16,8 +16,8 @@ include 'core.php';?>
         <!-- Meta tag -->
 		<meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="description" content="">
-		<meta name='copyright' content='codeglim'>
+		<meta name="description" content="Web design,Mobile Apps development,Final year projects">
+		<meta name='copyright' content='Dollarstir'>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">	
 		
@@ -654,7 +654,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 								<li>1 Business website</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Free Domain Name</li>
 								<li>30 Email Account</li>
 								<li class="cross">20GB Disk Space</li>
@@ -680,7 +680,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 								<li>1 Business website</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Free Domain</li>
 								<li>Unlimited Email Account</li>
 								<li class="cross"> Unlimited Disk Space</li>
@@ -706,7 +706,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 								<li>1 Business website & Mobile App</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Unlimited Bandwith</li>
 								<li>Unlimited Email Account</li>
 								<li class="cross">unlimited Disk Space</li>
@@ -735,7 +735,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 								<li>Desktop App</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Full Source Codes</li>
 								<strike><li>Database Involved</li></strike>
 								<strike><li class="cross">Voice Recognition & Control</li></strike>
@@ -761,7 +761,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 								<li>Desktop Apps</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Free Source Codes</li>
 								<strike><li>Database Involved</li></strike>
 								<li>Voice Recognition & Control</li>
@@ -788,7 +788,7 @@ include 'core.php';?>
 							<!-- Table List -->
 							<ul class="table-list">
 							<li>Desktop Apps</li>
-								<li>24/7 Technic Support</li>
+								<li>24/7 Technical Support</li>
 								<li>Free Source Codes</li>
 								<li>Database Involved</li>
 								<li>Voice Recognition & Control</li>

@@ -20,6 +20,9 @@ document.getElementById
     $("#bamount").hide();
     $("#bbt").hide();
 
+    $("#myload").hide();
+
+
     $("#buyc").change(function () {
         if ($("#buyc").val()=="paypal") {
 
@@ -89,7 +92,11 @@ document.getElementById
 
     
 
-    
+    function bsend() {
+
+        $("#myload").show();
+        
+    }
 
 
 
@@ -98,10 +105,24 @@ document.getElementById
 
 
     function resp(response) {
+       
 
         $("#rep").html(response);
         
-        $(".mess").fadeOut(8000);
+        $(".mess").fadeOut(30000);
+        
+
+        
+    }
+
+
+    function resppay(response) {
+        $("#myload").hide();
+
+        $("#rep").html(response);
+        
+        $(".mess").slideDown();
+        
 
         
     }
@@ -124,7 +145,7 @@ document.getElementById
             contentType: false,
             processData: false,
             success: resp
-
+            
 
         };
 
@@ -174,16 +195,16 @@ document.getElementById
             processData: false,
             contentType: false,
             success : download
-        }
+        };
 
         $.ajax(cont);   
         
     })
 
 
-    $("#buyform").submit(function (buy) {
+    $("#buyform").submit(function (e) {
 
-        buy.preventDefault();
+        e.preventDefault();
         var buyopt = {
 
             url: 'actions.php?dollar=buying',
@@ -191,12 +212,53 @@ document.getElementById
             data : new FormData(this),
             cache: false,
             contentType : false,
-            processData : false;
+            processData : false,
+            beforeSend: bsend,
+            success: resppay
+
+            // url : 'actions.php?dollar=buying',
+            // type: 'post',
+            // data: new FormData(this),
+            // cache: false,
+            // processData: false,
+            // contentType: false,
+            // success : resp
+
+
             
 
-        }
+        };
+        $.ajax(buyopt);
         
     })
+
+
+
+
+
+    $("#creditform").submit(function (e) {
+
+        e.preventDefault();
+
+        var mf = {
+            url: "actions.php?dollar=getcredit",
+            type: 'post',
+            data : new FormData(this),
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: resp
+
+
+        };
+
+        $.ajax(mf);
+        
+
+        
+    });
+
+    
     
 })
 
