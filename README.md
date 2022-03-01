@@ -7,7 +7,7 @@ Welcome to my website. I am a professional developer who always work on time and
 
 
 
-## 📕 CEO of Dollarsoft Enterprise [https://www.dollarstir.com/] 
+## 📕 CEO of Dollarsoft Enterprise [https://www.iamdollarstir.tk/] 
 ## Dollarsoft is an It firm that Build interactive softwares and also client specifications
 ## with the help of Data Science and AI.
 
