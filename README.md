@@ -2,7 +2,7 @@
 
 Hey there !! 👋🏻,
 
-Welcome to my website. I am a professional developer who always work on time and meet clients expectations .My name is Frederick Ennin, CEO of Dollarsoft Corporation and Co- Founder of award Wining Tech Company Purple Software LLP.I am Known in the Tech Industry as Dollar Stir. I have 7 years work experience as a programmer. I code in (Php ,FLutter/Dart,React native,Php Yolk, Next.js, C++ and Vb.net). I have worked with Great Companies Both Locally and Internationally. Hire me, Let do Business
+I am a professional software engineer.My name is Frederick Ennin, CEO of Dollarsoft Corporation (PHP, Python, ReactJS, Laravel, PHP Yolk, Flutter/Dart, Next.js
 
 
 
@@ -17,6 +17,7 @@ Welcome to my website. I am a professional developer who always work on time and
 ## 📬 Get in touch
 
 - Facebook: [https://facebook.com/dolarstir][3]
+- Linkedin :[https://www.linkedin.com/in/frederick-ennin-47965112a/]
 - Website:[https://www.dollarsitr.com/]
 
 
@@ -27,7 +28,7 @@ Welcome to my website. I am a professional developer who always work on time and
 ## &#x1f4c8; My GitHub Stats
 
 <a href="https://github.com/dollarstir/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dollarstir&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dollarstir&hide=html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 
 <a href="https://github.com/dollarstir/">
