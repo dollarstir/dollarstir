@@ -22,7 +22,7 @@
 
 
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -51,10 +51,6 @@
 <img  src="https://github-readme-streak-stats.herokuapp.com/?user=dollarstir&theme=dracula" />
 <br/>
 
-<a href="https://github.com/dollarstir">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dollarstir&layout=compact&theme=dracula&count_private=true&langs_count=10" />
-</a> 
-<br/>
 
 
 
