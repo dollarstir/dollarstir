@@ -35,9 +35,7 @@
 <img align="left" height='200px' src="https://github-readme-stats.vercel.app/api?username=dollarstir&show_icons=true&include_all_commits=true&theme=dracula&count_private=true"/>
 </div>
 <br/>
- <a>
-<img align="" height='200px' src="https://github-readme-stats.vercel.app/api/top-langs/?username=dollarstir&hide_title=false&layout=compact&theme=dracula&count_private=true" />
-</a> 
+ 
 
 
 <img  src="https://github-readme-streak-stats.herokuapp.com/?user=dollarstir&theme=dracula" />
