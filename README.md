@@ -1,9 +1,9 @@
 
 ## 📬 Get in touch
 
-- Facebook: [https://facebook.com/dolarstir][3]
-- Linkedin :[https://www.linkedin.com/in/frederick-ennin-47965112a/]
-- Website: [https://www.iamdollarstir.tk/] 
+- Facebook: https://facebook.com/dolarstir
+- Linkedin :https://www.linkedin.com/in/frederick-ennin-47965112a/
+- Website: https://www.iamdollarstir.tk/ 
 
 
 
