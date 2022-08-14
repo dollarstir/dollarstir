@@ -90,7 +90,7 @@
 
 ### Support Me
 
-<a href="https://www.buymeacoffee.com/iamEtornam"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+<a href="https://paystack.com/pay/2xngu7kv8j"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 
 
 
