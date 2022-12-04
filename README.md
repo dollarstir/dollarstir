@@ -2,6 +2,7 @@
 ## 📬 Get in touch
 
 - Facebook: https://facebook.com/dolarstir
+- Stackoverflow : https://stackoverflow.com/users/19121428/frederick-ennin
 - Linkedin :https://www.linkedin.com/in/frederick-ennin-47965112a/
 - Website: https://www.iamdollarstir.tk/ 
 
