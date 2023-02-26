@@ -95,7 +95,7 @@
 
 
 
-<p><img align="center" src="https://github.com/dollarstir/dollarstir/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Dollarstir" ></p>
+<p><img align="center" src="https://raw.githubusercontent.com/dollarstir/dollarstir/master/profile-3d-contrib/profile-night-rainbow.svg" alt="Dollarstir" ></p>
 
 
 
