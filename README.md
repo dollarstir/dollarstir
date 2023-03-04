@@ -1,5 +1,5 @@
 
-## 📬 Get in touch
+## 📬 Get in touch now
 
 - Facebook: https://facebook.com/dolarstir
 - Stackoverflow : https://stackoverflow.com/users/19121428/frederick-ennin
